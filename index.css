@@ -1,0 +1,118 @@
+/*CABEÇALHO*/
+header {
+   padding: 20px 0;
+   background-color: #ffffb3;
+}
+/*Modelando a "caixa" da div */
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*Imagem do logo*/
+.caixa img {
+    width: 200px;
+    height: 150px;
+}
+
+/*Formatando o texto*/
+.caixa h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #ff0066;
+}
+
+/*Formantando o menu*/
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+/*Formantando os itens do menu*/
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+/*Efeitos para quando passar o mouse*/
+nav a {
+    text-transform: uppercase;
+    color: #cc0066;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:#ff3300;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
+
+/*CORPO DA PÁGINA*/
+body {
+    margin:0;
+}
+
+.titulo-principal{
+    padding-left: 20px;
+    font-size: 30px;
+    text-align: center;
+    color:#ff6600;
+}
+
+.titulo-secundario{
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    color:#e65c00;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+
+}
+/*Tabela*/
+table {
+    border-spacing: 2px;
+    border-top: solid 1px #ff3300 ;
+    border-bottom: solid 1px #ff3300 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f1f2e;
+    margin: auto;
+    text-align: center;
+}
+
+#funcionamento table:hover {
+    transform: scale(1.5);
+}
+
+#contato {
+    margin-top: 30px;
+}
+
+/*RODAPÉ*/
+#rodape {
+    background: #ffffb3;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+ }
+
+ #rodape img {
+    width: 180px;
+    height: 120px;
+    vertical-align: text-top;   
+ }
+
+ #rodape h2{
+    text-transform: uppercase;
+    font-size: 28x;
+    color: #ff0066;
+    font-weight: bold;
+ }
